@@ -1,0 +1,8 @@
+when have change in your local machine:
+    go Source Control -> click +
+    in terminal:
+        git commit -m "<message goes here>"
+        git push
+
+In other machine:
+    git pull
