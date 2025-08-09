@@ -1,0 +1,15 @@
+attraction = ["Ha Long Bay", "Hoi An", "Ben Ninh Kieu", "Sa Pa", "Ha Noi"]
+print(f'Đây là danh sách gốc: \n{attraction}')
+print(f'\nĐây là danh sách đã sorted() : \n{sorted(attraction)}')
+print(f'\nĐây là danh sách gốc (chưa bị sắp xếp v.v) : \n{attraction}')
+print(f'\nĐây là danh sách đã sorted() ngược : \n{sorted(attraction, reverse=True)}')
+print(f'\nĐây là danh sách gốc (chưa bị sắp xếp ngược v.v) : \n{attraction}')
+attraction.reverse()
+print(f'\nĐây là danh sách đã reverse() : \n{attraction}')
+attraction.reverse()
+print(f'\nĐây là danh sách gốc (đã bị ngược 2 lần) : \n{attraction}')
+attraction.sort()
+print(f'\nĐây là danh sách đã sorted() : \n{attraction}')
+attraction.sort(reverse= True)
+print(f'\nĐây là danh sách đã bị sorted() ngược : \n{attraction}')
+
