@@ -6,4 +6,4 @@ order = ""
 while order != 'quit':
     order = input(toppings)
     if order != 'quit':
-        print(f'\n - Đã thêm {order} - ')
+        print(f'\n --- Đã thêm {order} --- ')
