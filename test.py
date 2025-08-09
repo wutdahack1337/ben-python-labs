@@ -1,4 +1,9 @@
-n = int(input())
+prompt = "Bạn nhập, tôi nói lại : "
+prompt += "\nNhập 'quit' nếu muốn dừng. Nhập : "
 
-for ans in range(n,0,-1):
-    print(ans,end= " ")
+mess = ""
+
+while mess != 'quit':
+    mess = input(prompt)
+    if mess != 'quit':
+        print(mess)
