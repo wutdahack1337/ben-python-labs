@@ -1,9 +1,11 @@
-prompt = "Bạn nhập, tôi nói lại : "
-prompt += "\nNhập 'quit' nếu muốn dừng. Nhập : "
+s = int(input())
+tong_cs = 0
+sl_cs = 0
 
-mess = ""
-
-while mess != 'quit':
-    mess = input(prompt)
-    if mess != 'quit':
-        print(mess)
+while s != 0:
+    tong_cs += s%10
+    s = s//10
+    sl_cs += 1
+    
+print(tong_cs)
+print(sl_cs)
