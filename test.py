@@ -1,4 +1,5 @@
-def greet_users(name):
-    print(f"Hello, {name}")
+def describe_pet(animal_type, pet_name):
+    print(f"I have a {animal_type}.")
+    print(f"It's name is {pet_name}.")
 
-greet_users('Khang')
+describe_pet(animal_type= 'rabit', pet_name= 'Harry')
