@@ -1,4 +1,3 @@
-
 def city_country(city, country):
     sent = f"{city}, {country}."
     return sent
