@@ -1,5 +1,4 @@
-def describe_pet(animal_type, pet_name):
-    print(f"I have a {animal_type}.")
-    print(f"It's name is {pet_name}.")
-
-describe_pet(animal_type= 'rabit', pet_name= 'Harry')
+def greeting(name, born_year):
+    print(f"Hello {name}.")
+    print(f"Your age is {2025-born_year}.")
+greeting("Khang", 2012)

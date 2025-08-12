@@ -1,4 +1,4 @@
 def display_message():
-    print("I'm learning what a Function is.")
+    print("In this chapter, I'm learn what a Funtion is.")
 
 display_message()

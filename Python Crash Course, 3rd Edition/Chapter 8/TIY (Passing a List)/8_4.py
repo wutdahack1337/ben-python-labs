@@ -1,14 +1,16 @@
-def make_shirt(size= 'L', text= 'I love Python'):
-    print(f'This shirt is {size}.')
-    print(f'Its message is {text}.')
+# 8-3, 8-4
 
-print()
-make_shirt(size= 'Large')
+def make_shirt(size= "Large", text= '"I love Python"'):
+    print(f"This shirt is {size} size.")
+    print(f"Its message is {text}.")
 
-print()
+make_shirt('S', '"Love your enemies"')
+print('-'*34)
+make_shirt(size= 'S', text= '"Love your enemies"')
+print('-'*34)
 
-make_shirt(size= 'Medium')
-
-print()
-
-make_shirt(text= 'Love your family')
+make_shirt()
+print('-'*34)
+make_shirt("Medium")
+print('-'*34)
+make_shirt("X-Large", text= '"Love your family"')

@@ -1,7 +1,4 @@
-def pets(pet_type, pet_name):
-    print(f'I have a {pet_type}')
-    print(f"It's name is {pet_name}")
+def fav_book(title):
+    print(f"One of my favorite book is {title}.")
 
-pets('dog', 'lucy')
-print()
-pets('cat', 'luna')
+fav_book('Sweet Home')
