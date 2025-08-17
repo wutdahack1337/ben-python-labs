@@ -1,10 +1,6 @@
-def build_profile(first, last, **user_info):
-    """Tạo một dictionary chứa thông tin về người dùng."""
-    user_info['first_name'] = first
-    user_info['last_name'] = last
-    return user_info
+n = int(input())
 
-user_profile = build_profile('albert', 'einstein',
-                             location='princeton',
-                             field='physics')
-print(user_profile)
+for sqrt in range(n):
+    if sqrt**2 == n:
+        print(sqrt)
+
